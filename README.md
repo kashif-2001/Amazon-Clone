@@ -70,3 +70,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 <!-- .origin link:"git remote add origin https://github.com/kashif-2001/Amazon-colone.git" -->
+<!-- after log in firebase then run this command in terminal  -->
+
+npm run build
+
+<!-- then deploying the project in firebase run this command in terminal  -->
+
+firebase.cmd deploy
+
+<!-- hosting url of this project  -->
+
+https://colone-f4a8b.web.app/
