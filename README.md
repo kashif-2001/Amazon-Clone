@@ -69,6 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+<!-- dependency use in this project  -->
+
 <!-- .origin link:"git remote add origin https://github.com/kashif-2001/Amazon-colone.git" -->
 <!-- after log in firebase then run this command in terminal  -->
 
@@ -81,3 +83,12 @@ firebase.cmd deploy
 <!-- hosting url of this project  -->
 
 https://colone-f4a8b.web.app/
+
+<!-- it is allow us to pull in strip in your app  -->
+
+npm i @stripe/stripe-js
+2.npm i @stripe/react-stripe-js
+
+<!-- for the payment process the link of stripe -->
+
+https://stripe.com/

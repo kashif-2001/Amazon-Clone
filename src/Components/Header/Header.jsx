@@ -33,7 +33,9 @@ function Header() {
         {/* '!user &&' used for not redirect the sign in page  */}
         <Link to={!user && '/login'} className='link'>
           <div onClick={handleAuthentication} className='header__option'>
-            <span className='header__optionLineOne'>Hello Guest</span>
+            <span className='header__optionLineOne'>
+              {user ? user.email : 'Hello Guest'}
+            </span>
             <span className='header__optionLinTwo'>
               {user ? 'Sign Out' : 'Sign In'}
             </span>

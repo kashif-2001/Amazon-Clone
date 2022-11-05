@@ -14,6 +14,7 @@ const Home = () => {
             src='https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg'
             alt=''
           />
+          {/* first product row */}
           <div className='home__row'>
             <Products
               id={121232323}
@@ -29,7 +30,8 @@ const Home = () => {
               rating={4}
               image='https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg'
             />
-            {/* Products */}
+
+            {/* second Products row*/}
           </div>
           <div className='home__row'>
             <Products
@@ -54,7 +56,32 @@ const Home = () => {
               image='https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg'
             />
           </div>
+          {/* third product row */}
           <div className='home__row'>
+            <Products
+              id={56433433}
+              title='SOLE Fitness E55 (2017 Model Blowout Sale) Indoor Elliptical, Home and Gym Exercise Equipment'
+              price={1294.98}
+              rating={5}
+              image='https://m.media-amazon.com/images/I/315jSDmxQEL._AC_UL320_.jpg'
+            />
+            <Products
+              id={5123433}
+              title='Body-Solid EXM3000LPS Multi-Station Selectorized Gym for Light Commercial and Home Gym'
+              price={1194.98}
+              rating={4}
+              image='https://m.media-amazon.com/images/I/61B4AdkQeKL._AC_UL320_.jpg'
+            />
+          </div>
+          {/* Four product row */}
+          <div className='home__row'>
+            <Products
+              id={56434333433}
+              title='Marcy Multifunction Steel Home Gym, for fitnest and Indoor Elliptical, Home and Gym Exercise Equipment'
+              price={1494.98}
+              rating={5}
+              image='https://m.media-amazon.com/images/I/71h3CfiBamL._AC_UL320_.jpg'
+            />
             <Products
               id={56433}
               title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
